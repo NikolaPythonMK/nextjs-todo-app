@@ -1,0 +1,64 @@
+.edit-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.edit-container{
+    width: 90%;
+}
+
+.edit-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.edit-title{
+    font-size: 2.5rem;
+}
+
+.edit-desc{
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.date-el{
+    margin-top: 30px;
+}
+
+.edit-mode{
+    border: 1px solid black;
+}
+
+.btn-save-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 1024px) {
+    .edit-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 95vh;
+        
+    }
+
+    .edit-container{
+        width: 30%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        height: 80vh;
+    }
+    .edit-header{
+        display: flex;
+        justify-content: space-between;
+    }
+  }
+  
